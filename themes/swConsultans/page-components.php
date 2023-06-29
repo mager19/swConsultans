@@ -17,9 +17,11 @@ get_header(); ?>
           <div class="flex flex-wrap px-4">
             <div class="email w-8/12 md:w-1/2">
               <a class="text-white flex items-center gap-2 text-xs py-3 font-extralight"    href="#">
-                <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M14 0H2C1.175 0 0.5075 0.675 0.5075 1.5L0.5 10.5C0.5 11.325 1.175 12 2 12H14C14.825 12 15.5 11.325 15.5 10.5V1.5C15.5 0.675 14.825 0 14 0ZM14 3L8 6.75L2 3V1.5L8 5.25L14 1.5V3Z" fill="white"/>
-                </svg>
+                <figure>
+                    <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0H2C1.175 0 0.5075 0.675 0.5075 1.5L0.5 10.5C0.5 11.325 1.175 12 2 12H14C14.825 12 15.5 11.325 15.5 10.5V1.5C15.5 0.675 14.825 0 14 0ZM14 3L8 6.75L2 3V1.5L8 5.25L14 1.5V3Z" fill="white"/>
+                    </svg>
+                </figure>
                 jwong@swconsultants.com.au
               </a>
             </div>
