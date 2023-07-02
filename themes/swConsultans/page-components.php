@@ -12,7 +12,32 @@
 
 get_header(); ?>
 
-<div class="topbar bg-secondary">
+<div class="container mx-auto">
+        <div class="flex flex-wrap px-4">
+          <div class="intro-section md:flex md:w-full">
+            <div class="image w-full lg:w-6/12 md:order-2">
+              <img class="w-full max-h-[422px] md:h-full md:max-h-[565px] object-cover rounded-lg" src="/img/intro.png" alt="image">
+            </div>
+            <div class="content w-full lg:w-6/12 md:order-1">
+              <div class="title text-title5 md:text-title4 text-grey-700">
+                <h3 class="w-full md:max-w-[400px] mt-8 md:mt-0">
+                  At <span class="text-primary">SW Consultants</span>, we are dedicated to providing comprehensive quantity surveying services to clients in the construction industry.
+                </h3>
+              </div>
+              <div class="paragraph1 text-body text-grey-700 mt-6">
+                <p class="w-full md:max-w-[420px]">
+                  Our team of highly skilled Quantity Surveyors brings extensive industry knowledge and experience to every project we undertake. We work closely with clients, architects, contractors, and other stakeholders to ensure accurate cost estimates, efficient budgeting, and effective project management.
+                </p>
+              </div>
+              <div class="paragraph2 text-body text-grey-700 mt-2">
+                <p class="w-full md:max-w-[410px]">
+                  With a focus on delivering exceptional value, we offer a wide range of services tailored to meet the unique needs of each project. From initial feasibility studies to final account settlements, we provide detailed cost analysis, tender documentation, contract administration, and dispute resolution support.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
         <div class="container mx-auto">
           <div class="flex flex-wrap px-4">
             <div class="email w-8/12 md:w-1/2">
