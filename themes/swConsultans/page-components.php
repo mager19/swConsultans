@@ -14,6 +14,29 @@ get_header(); ?>
 
 <div class="container mx-auto">
         <div class="flex flex-wrap px-4">
+          <div class="mission mt-4 md:flex md:items-center md:w-full">
+            <div class="title-subtitle md:w-6/12">
+              <h3 class="text-title5 text-primary">
+                Mission Statement
+              </h3>
+              <h4 class="text-title5 text-gray-700 mt-4 md:text-title4 md:max-w-sm">
+                Our mission is to provide exceptional quantity  services
+              </h4>
+            </div>
+            <div class="paragraph-mission mt-4 md:w-6/12 md:max-w-[400px]">
+              <div class="paragraphs">
+                <p class="text-body text-grey-700">
+                  Our mission is to provide exceptional quantity surveying services, delivering accurate and reliable cost advice, efficient project management, and expert financial analysis. 
+                </p>
+                <p class="text-body text-grey-700 mt-6">
+                  We strive to add value to every project we undertake, ensuring cost optimization, risk mitigation, and successful outcomes for our clients. With our unwavering commitment to professionalism, integrity, and client satisfaction, we aim to be recognized as a trusted partner in the construction industry, contributing to the growth and success of our clients' ventures."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="flex flex-wrap px-4">
           <div class="intro-section md:flex md:w-full">
             <div class="image w-full lg:w-6/12 md:order-2">
               <img class="w-full max-h-[422px] md:h-full md:max-h-[565px] object-cover rounded-lg" src="/img/intro.png" alt="image">
