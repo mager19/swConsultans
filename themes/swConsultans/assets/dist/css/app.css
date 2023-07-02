@@ -1698,6 +1698,9 @@ blockquote p {
 .relative {
   position: relative;
 }
+.m-0 {
+  margin: 0px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1750,6 +1753,12 @@ blockquote p {
 .w-3\/12 {
   width: 25%;
 }
+.w-4\/12 {
+  width: 33.333333%;
+}
+.w-8\/12 {
+  width: 66.666667%;
+}
 .w-9\/12 {
   width: 75%;
 }
@@ -1761,6 +1770,9 @@ blockquote p {
 }
 .resize {
   resize: both;
+}
+.list-none {
+  list-style-type: none;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1783,11 +1795,21 @@ blockquote p {
 .justify-center {
   justify-content: center;
 }
+.gap-2 {
+  gap: 0.5rem;
+}
 .gap-4 {
   gap: 1rem;
 }
 .gap-6 {
   gap: 1.5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.gap-x-3 {
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
 }
 .truncate {
   overflow: hidden;
@@ -1811,17 +1833,17 @@ blockquote p {
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
-.bg-gray-700 {
+.bg-grey-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+  background-color: rgb(52 64 84 / var(--tw-bg-opacity));
+}
+.bg-secondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(103 0 103 / var(--tw-bg-opacity));
 }
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-.bg-grey-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(52 64 84 / var(--tw-bg-opacity));
 }
 .p-0 {
   padding: 0px;
@@ -1834,6 +1856,10 @@ blockquote p {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1845,16 +1871,28 @@ blockquote p {
 .text-center {
   text-align: center;
 }
+.text-overline {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
 .text-title3 {
   font-size: 2.25rem;
   line-height: 2.6875rem;
   font-weight: 700;
+}
+.font-extralight {
+  font-weight: 200;
 }
 .uppercase {
   text-transform: uppercase;
 }
 .lowercase {
   text-transform: lowercase;
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -1886,7 +1924,21 @@ blockquote p {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
+.visited\:text-white:visited {
+  color: rgb(255 255 255 );
+}
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.hover\:opacity-80:hover {
+  opacity: 0.8;
+}
 @media (min-width: 768px) {
+
+  .md\:w-1\/2 {
+    width: 50%;
+  }
 
   .md\:w-3\/12 {
     width: 25%;
@@ -2254,3 +2306,5 @@ blockquote p {
     color: black;
 }
 
+
+/*# sourceMappingURL=app.css.map*/
