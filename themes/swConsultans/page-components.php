@@ -46,12 +46,17 @@ get_header(); ?>
                     </svg>                    
                 </a>
               </div>
-              <div class="navigation-bar hidden md:flex md:gap-10 md:justify-end">
-                <a class="text-sm" href="#">Home</a>
-                <a class="text-sm" href="#">Services</a>
-                <a class="text-sm" href="#">Qualification</a>
-                <a class="text-sm" href="#">Tax Depreciation</a>
-                <a class="text-sm" href="#">Contact</a>
+              <div class="navigation-bar hidden md:flex md:gap-5 md:justify-end md:items-center">
+                <a href="#" class="lg:text-bodyBold md:text-button text-grey-600">Home</a>
+                <a href="#" class="lg:text-bodyBold md:text-button text-grey-600 flex items-center gap-1">Services 
+                <figure>
+                  <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.99251 9.12088C7.89424 9.12208 7.79681 9.1027 7.70649 9.06399C7.61616 9.02527 7.53493 8.96809 7.46803 8.8961L0.724775 2.15285C0.425075 1.85315 0.425075 1.38861 0.724775 1.08891C1.02448 0.789211 1.48901 0.789211 1.78871 1.08891L8.00749 7.30769L14.2113 1.1039C14.511 0.804196 14.9755 0.804196 15.2752 1.1039C15.5749 1.4036 15.5749 1.86813 15.2752 2.16783L8.53197 8.91109C8.38212 9.06094 8.18731 9.13586 8.00749 9.13586L7.99251 9.12088Z" fill="#3C84AB"/>
+                  </svg>
+                </figure></a>
+                <a href="#" class="lg:text-bodyBold md:text-button text-grey-600" >Qualification</a>
+                <a href="#" class="lg:text-bodyBold md:text-button text-grey-600" >Tax Depreciation</a>
+                <a href="#" class="lg:text-bodyBold md:text-button text-grey-600" >Contact</a>
               </div>
             </div>
           </div>
