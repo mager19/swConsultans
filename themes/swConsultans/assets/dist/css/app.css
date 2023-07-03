@@ -1864,10 +1864,6 @@ blockquote p {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
 }
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1888,9 +1884,6 @@ blockquote p {
   font-size: 2.25rem;
   line-height: 2.6875rem;
   font-weight: 700;
-}
-.font-extralight {
-  font-weight: 200;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1954,14 +1947,6 @@ blockquote p {
   opacity: 0.8;
 }
 @media (min-width: 768px) {
-
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:hidden {
-    display: none;
-  }
 
   .md\:w-1\/2 {
     width: 50%;
@@ -2369,3 +2354,5 @@ blockquote p {
     color: black;
 }
 
+
+/*# sourceMappingURL=app.css.map*/
