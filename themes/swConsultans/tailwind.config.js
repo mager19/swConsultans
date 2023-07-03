@@ -108,7 +108,7 @@ module.exports = {
                 },
             ],
             title6: [
-                "1.125rem",
+                "1.25rem",
                 {
                     fontFamily: "poppins",
                     fontWeight: "700",
