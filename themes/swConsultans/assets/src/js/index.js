@@ -1,4 +1,2 @@
-import '../css/main.css';
-import '../js/base.js';
-
-
+import "../css/main.css";
+import "../js/base.js";

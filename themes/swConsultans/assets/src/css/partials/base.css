@@ -597,7 +597,7 @@ html {
 }
 
 body {
-    @apply font-normal text-dark-1 font-nunito;
+    @apply font-normal text-grey-700 font-nunito;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: rem(16px);
@@ -700,7 +700,7 @@ body {
 }
 
 p {
-    @apply mb-4 text-dark-3;
+    @apply mb-5;
     hyphens: none;
     word-break: keep-all;
     word-wrap: normal;

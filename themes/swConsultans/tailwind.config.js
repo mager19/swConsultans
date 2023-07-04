@@ -1,7 +1,12 @@
 const plugin = require("tailwindcss/plugin");
 
 module.exports = {
-    content: ["./*.php", "./*/*.php", "./assets/**/*.js"],
+    content: [
+        "./*.php",
+        "./*/*.php",
+        "./assets/**/*.js",
+        "./blocks/**/*.{php,js}",
+    ],
 
     theme: {
         extend: {
@@ -104,7 +109,7 @@ module.exports = {
                 {
                     fontFamily: "poppins",
                     fontWeight: "700",
-                    lineHeight: "2rem",
+                    lineHeight: "1.625rem",
                 },
             ],
             title6: [
@@ -133,10 +138,10 @@ module.exports = {
                 },
             ],
             body: [
-                "1rem",
+                "1.125rem",
                 {
                     fontFamily: "poppins",
-                    fontWeight: "700",
+                    fontWeight: "500",
                     lineHeight: "1.5rem",
                 },
             ],

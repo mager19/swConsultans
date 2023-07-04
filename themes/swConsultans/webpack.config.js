@@ -12,6 +12,7 @@ const entryPoints = {
     // 'app' is the output name, people commonly use 'bundle'
     // you can have more than 1 entry point
     app: jsPath + "/index.js",
+    editor: "./assets/src/css/editor.css",
 };
 
 module.exports = {
@@ -22,6 +23,8 @@ module.exports = {
         filename: "./js/[name].js",
         assetModuleFilename: "./img/[name][ext]",
         clean: true,
+        // Agrega la siguiente línea para generar el archivo CSS
+        chunkFilename: "./css/[id].css",
     },
     stats: {
         children: true,
@@ -29,6 +32,7 @@ module.exports = {
     plugins: [
         new MiniCssExtractPlugin({
             filename: "css/[name].css",
+            chunkFilename: "css/[id].css",
         }),
 
         // Uncomment this if you want to use CSS Live reload
