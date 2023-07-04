@@ -24,12 +24,12 @@ get_header(); ?>
                 </h4>
             </div>
             <div class="paragraph">
-                <p class="text-body text-grey-700 mt-8">
+                <p class="text-body text-grey-700 mt-8 lg:max-w-[289px]">
                     We provide comprehensive assessments conducted at the early stages of a construction project to determine its viability and potenti...
                 </p>
             </div>
-            <div class="link-acces">
-                <a href="#" class="text-primary text-button block mt-6">Learn More</a>
+            <div class="link-access">
+                <a href="#" class="text-primary text-button block mt-6 hover:text-grey-700 visited:text-primary">Learn More</a>
             </div>
         </div>
     </div>
