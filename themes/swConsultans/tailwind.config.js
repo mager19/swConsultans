@@ -133,10 +133,10 @@ module.exports = {
                 },
             ],
             body: [
-                "1rem",
+                "1.125rem",
                 {
                     fontFamily: "poppins",
-                    fontWeight: "700",
+                    fontWeight: "500",
                     lineHeight: "1.5rem",
                 },
             ],
