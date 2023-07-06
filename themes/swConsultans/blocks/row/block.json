@@ -1,14 +1,14 @@
 {
-    "name": "title-TextRight",
-    "title": "Title Left TextRight",
-    "description": "Block with title on the left and text right",
+    "name": "row",
+    "title": "Row - Custom",
+    "description": "Block Row",
     "category": "swConsultansBlocks",
     "apiVersion": 2,
+    "icon": "menu-alt2",
     "acf": {
         "mode": "preview",
-        "renderTemplate": "blocks/title-textRight/block.php"
+        "renderTemplate": "blocks/row/block.php"
     },
-
     "example": {
         "attributes": {
             "mode": ["preview"],

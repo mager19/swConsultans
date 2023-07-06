@@ -24,7 +24,7 @@ $contentBlock = get_field('content_block');
 
 ?>
 
-<div id="<?php echo $block_id ?>" class="<?php echo $block_class ?> bg-grey-100 py-15 my-10">
+<div id="<?php echo $block_id ?>" class="<?php echo $block_class ?> bg-grey-100 py-15">
     <div class="container mx-auto">
         <div class="flex flex-wrap px-4 md:items-center">
             <div class="w-full md:w-1/2">

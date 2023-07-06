@@ -772,7 +772,8 @@ a {
     color: royalblue;
 }
 a:visited {
-    color: purple;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 a:hover,
 a:focus,
@@ -1093,7 +1094,7 @@ body h1,
   font-family: Poppins ,sans-serif;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(3 27 76 / var(--tw-text-opacity));
+  color: rgb(52 64 84 / var(--tw-text-opacity));
         -webkit-hyphens: none;
                 hyphens: none;
         letter-spacing: -0.02em;
@@ -1704,10 +1705,6 @@ blockquote p {
   margin-left: auto;
   margin-right: auto;
 }
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1731,6 +1728,9 @@ blockquote p {
 }
 .mt-6 {
   margin-top: 1.5rem;
+}
+.mt-7 {
+  margin-top: 1.75rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -1894,6 +1894,10 @@ blockquote p {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -1913,6 +1917,9 @@ blockquote p {
 .text-center {
   text-align: center;
 }
+.font-nunito {
+  font-family: Nunito, sans-serif;
+}
 .text-body {
   font-size: 1.125rem;
   line-height: 1.5rem;
@@ -1922,6 +1929,11 @@ blockquote p {
   font-size: 0.875rem;
   line-height: 1rem;
   font-weight: 700;
+}
+.text-display1 {
+  font-size: 6rem;
+  line-height: 6.375rem;
+  font-weight: 600;
 }
 .text-overline {
   font-size: 0.75rem;
@@ -1946,11 +1958,17 @@ blockquote p {
 .font-bold {
   font-weight: 700;
 }
+.font-extrabold {
+  font-weight: 800;
+}
 .uppercase {
   text-transform: uppercase;
 }
 .lowercase {
   text-transform: lowercase;
+}
+.leading-none {
+  line-height: 1;
 }
 .text-grey-200 {
   --tw-text-opacity: 1;
@@ -1967,9 +1985,6 @@ blockquote p {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-.underline {
-  text-decoration-line: underline;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -2007,8 +2022,15 @@ blockquote p {
 .visited\:text-grey-700:visited {
   color: rgb(52 64 84 );
 }
+.visited\:text-primary:visited {
+  color: rgb(205 4 154 );
+}
 .visited\:text-white:visited {
   color: rgb(255 255 255 );
+}
+.hover\:text-grey-700:hover {
+  --tw-text-opacity: 1;
+  color: rgb(52 64 84 / var(--tw-text-opacity));
 }
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
@@ -2022,6 +2044,14 @@ blockquote p {
   opacity: 0.8;
 }
 @media (min-width: 768px) {
+
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
 
   .md\:mt-5 {
     margin-top: 1.25rem;
@@ -2115,6 +2145,11 @@ blockquote p {
 }
 @media (min-width: 1024px) {
 
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -2139,6 +2174,18 @@ blockquote p {
     width: 50%;
   }
 
+  .lg\:w-10\/12 {
+    width: 83.333333%;
+  }
+
+  .lg\:max-w-\[289px\] {
+    max-width: 289px;
+  }
+
+  .lg\:max-w-md {
+    max-width: 28rem;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2160,6 +2207,27 @@ blockquote p {
     line-height: 1.575rem;
     font-weight: 700;
   }
+}
+@media (min-width: 768px) {
+
+  .md\:\[\&_img\]\:h-\[564px\] img {
+    height: 564px;
+  }
+
+  .md\:\[\&_img\]\:w-full img {
+    width: 100%;
+  }
+}
+.\[\&_p\]\:text-grey-700 p {
+  --tw-text-opacity: 1;
+  color: rgb(52 64 84 / var(--tw-text-opacity));
+}
+.last\:\[\&_p\]\:mb-0 p:last-child {
+  margin-bottom: 0px;
+}
+.\[\&_strong\]\:text-primary strong {
+  --tw-text-opacity: 1;
+  color: rgb(205 4 154 / var(--tw-text-opacity));
 }
 
 /*!*********************************************************************************************************************************************************************!*\

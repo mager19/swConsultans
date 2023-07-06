@@ -113,6 +113,31 @@ get_header(); ?>
         </div>
     </div>
 </header>
+
+
+<div class="container mx-auto py-12 item__service__container">
+    <div class="flex flex-wrap px-4">
+        <div class="item__service w-full lg:w-4/12">
+            <div class="number">
+                <h3 class="text-primary text-display1 font-nunito font-bold mb-0 leading-none">01</h3>
+            </div>
+            <div class="subtitle">
+                <h4 class="text-title6 text-grey-700 mt-7 font-extrabold">
+                    Feasibility Studies
+                </h4>
+            </div>
+            <div class="paragraph">
+                <p class="text-body text-grey-700 mt-8 lg:max-w-[289px]">
+                    We provide comprehensive assessments conducted at the early stages of a construction project to determine its viability and potenti...
+                </p>
+            </div>
+            <div class="link-access">
+                <a href="#" class="text-primary text-button block mt-6 hover:text-grey-700 visited:text-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 <footer class="bg-secondary">
     <div class="container mx-auto">
         <div class="flex flex-wrap px-4 justify-center">
