@@ -1697,6 +1697,9 @@ blockquote p {
 .relative {
   position: relative;
 }
+.m-0 {
+  margin: 0px;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1708,29 +1711,23 @@ blockquote p {
 .mb-0 {
   margin-bottom: 0px;
 }
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mt-14 {
-  margin-top: 3.5rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
-.mt-15 {
-  margin-top: 3.75rem;
+.mt-24 {
+  margin-top: 6rem;
 }
 .mt-3 {
   margin-top: 0.75rem;
-}
-.mt-4 {
-  margin-top: 1rem;
-}
-.mt-6 {
-  margin-top: 1.5rem;
-}
-.mt-7 {
-  margin-top: 1.75rem;
 }
 .mt-8 {
   margin-top: 2rem;
@@ -1774,8 +1771,8 @@ blockquote p {
 .w-3\/12 {
   width: 25%;
 }
-.w-4\/12 {
-  width: 33.333333%;
+.w-7\/12 {
+  width: 58.333333%;
 }
 .w-9\/12 {
   width: 75%;
@@ -1789,11 +1786,17 @@ blockquote p {
 .resize {
   resize: both;
 }
+.list-none {
+  list-style-type: none;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1815,6 +1818,9 @@ blockquote p {
 }
 .gap-6 {
   gap: 1.5rem;
+}
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 .truncate {
   overflow: hidden;
@@ -1846,6 +1852,10 @@ blockquote p {
   --tw-bg-opacity: 1;
   background-color: rgb(52 64 84 / var(--tw-bg-opacity));
 }
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 4 154 / var(--tw-bg-opacity));
+}
 .bg-slate-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
@@ -1857,9 +1867,9 @@ blockquote p {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 .py-14 {
   padding-top: 3.5rem;
@@ -1885,16 +1895,6 @@ blockquote p {
   line-height: 1.5rem;
   font-weight: 500;
 }
-.text-button {
-  font-size: 0.875rem;
-  line-height: 1rem;
-  font-weight: 700;
-}
-.text-display1 {
-  font-size: 6rem;
-  line-height: 6.375rem;
-  font-weight: 600;
-}
 .text-title3 {
   font-size: 2.25rem;
   line-height: 2.6875rem;
@@ -1903,11 +1903,6 @@ blockquote p {
 .text-title5 {
   font-size: 1.5rem;
   line-height: 1.625rem;
-  font-weight: 700;
-}
-.text-title6 {
-  font-size: 1.25rem;
-  line-height: 1.25rem;
   font-weight: 700;
 }
 .font-bold {
@@ -1919,8 +1914,9 @@ blockquote p {
 .lowercase {
   text-transform: lowercase;
 }
-.leading-none {
-  line-height: 1;
+.text-grey-50 {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 .text-grey-700 {
   --tw-text-opacity: 1;
@@ -1929,13 +1925,6 @@ blockquote p {
 .text-primary {
   --tw-text-opacity: 1;
   color: rgb(205 4 154 / var(--tw-text-opacity));
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(205 4 154 / var(--tw-text-opacity));
-}
-.underline {
-  text-decoration-line: underline;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -1969,32 +1958,40 @@ blockquote p {
 }
 @media (min-width: 768px) {
 
+  .md\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .md\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
   .md\:mt-5 {
     margin-top: 1.25rem;
-  }
-
-  .md\:mt-9 {
-    margin-top: 2.25rem;
-  }
-
-  .md\:flex {
-    display: flex;
   }
 
   .md\:w-1\/2 {
     width: 50%;
   }
 
+  .md\:w-11\/12 {
+    width: 91.666667%;
+  }
+
   .md\:w-3\/12 {
     width: 25%;
   }
 
-  .md\:w-9\/12 {
-    width: 75%;
+  .md\:w-7\/12 {
+    width: 58.333333%;
   }
 
-  .md\:w-full {
-    width: 100%;
+  .md\:w-9\/12 {
+    width: 75%;
   }
 
   .md\:max-w-md {
@@ -2003,6 +2000,14 @@ blockquote p {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:items-center {
+    align-items: center;
   }
 
   .md\:text-title2 {
@@ -2021,6 +2026,14 @@ blockquote p {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mb-4 {
+    margin-bottom: 1rem;
+  }
+
+  .lg\:ml-4 {
+    margin-left: 1rem;
   }
 
   .lg\:flex {
