@@ -12,7 +12,11 @@
 
 get_header(); ?>
 
-<div class="logos bg-primary">
+
+
+
+
+<div class="logos__container bg-primary">
     <div class="container mx-auto">
         <div class="flex flex-wrap">
             <div class="logos-section px-4">
